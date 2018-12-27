@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stacja ISS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" id="nabvar">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">Strona główna <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="dwa.html">Przeloty</a>
+                        <a class="nav-item nav-link" href="stream.html">Na żywo</a>
+                        <a class="nav-item nav-link disabled" href="gallery.html">Galeria</a>
+                    </div>
+                </div>
+                </button>
+            </nav>
+            <div class="col-sm-12" id="header">
+                <h1 style="padding-top: 250px; font-size: 4em">Międzynarodowa stacja kosmiczna ISS</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9" id="basics3">
+               
+                <iframe width="1300" height="700" src="https://www.ustream.tv/embed/9408562?html5ui" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;"></iframe>
+                <h1 class="text-left">Zobacz na żywo obraz ze stacji</h1>
+            </div>
+            <div class="col-sm-3" id="basics4">
+                <h3>Śledź pozycję stacji</h3>
+                <iframe src="https://isstracker.spaceflight.esa.int/" style="border: 0 none transparent; " id="iss-pos" width="400" height="450" frameborder="0" scrolling="no" allowfullscreen="" title="ESU ISS tracking map">ESA ISS tracking map</iframe>
+                <p class="text-justify" style="font-size: 1.3em; margin: 20px;">
+                Dzięki kamerom oraz czujnikom zainstalowanym na stacji na tej stronie możesz na żywo śledzić położenie stacji oraz zobaczyć kosmos z jej perspektywy.
+            </p>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-sm-12" id="footer">
+                <span>Stworzone przy użyciu HTML5, CSS3, JavaScript oraz Bootstrap przez &copy;Piotr Stępnia</span>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
